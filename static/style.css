@@ -1,0 +1,104 @@
+:root {
+    --primary: #4361ee;
+    --secondary: #3f37c9;
+    --success: #4cc9f0;
+    --light-bg: #f8f9fa;
+    --card-radius: 12px;
+}
+
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #343a40;
+}
+
+.navbar {
+    padding: 1rem 0;
+}
+
+.question-card {
+    background: white;
+    border-radius: var(--card-radius);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    overflow: hidden;
+    height: 100%;
+    border: none;
+}
+
+.question-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(67, 97, 238, 0.15);
+}
+
+.card-header {
+    background: linear-gradient(120deg, var(--primary), var(--secondary));
+    color: white;
+    padding: 1.25rem;
+    border-radius: var(--card-radius) var(--card-radius) 0 0 !important;
+    border: none;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.topic-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.option-item {
+    padding: 12px 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background: var(--light-bg);
+    cursor: pointer;
+    transition: all 0.2s;
+    border: 1px solid transparent;
+}
+
+.option-item:hover {
+    background: #e9ecef;
+    transform: translateX(3px);
+}
+
+.correct-answer {
+    background-color: #d4edda !important;
+    border-left: 4px solid #28a745;
+    color: #155724;
+}
+
+.answer-section {
+    background-color: #e8f5e9;
+    border-radius: 8px;
+    padding: 1.25rem;
+    margin-top: 1rem;
+    border-left: 4px solid #4CAF50;
+}
+
+.difficulty-badge {
+    padding: 0.4em 0.8em;
+    font-size: 0.85rem;
+    border-radius: 50px;
+}
+
+.btn-group .btn {
+    border-radius: 50px !important;
+    margin: 0 5px;
+    padding: 0.5rem 1.25rem;
+}
+
+.progress-container {
+    background: white;
+    padding: 1.5rem;
+    border-radius: var(--card-radius);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+footer {
+    background: white !important;
+}

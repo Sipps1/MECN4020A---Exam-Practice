@@ -62,3 +62,100 @@ This web application provides a comprehensive set of practice questions for the 
 ```bash
 git clone https://github.com/your-username/MECN4020A-Exam-Practice.git
 cd MECN4020A-Exam-Practice
+```
+
+**Create and activate virtual environment**
+
+```bash
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
+# Mac/Linux
+python3 -m venv venv
+source venv/bin/activate
+```
+
+**Install dependencies**
+
+```bash
+pip install -r requirements.txt
+```
+
+**Run the application**
+
+```bash
+uvicorn main:app --reload
+```
+
+**Access the app at:** [http://localhost:8000](http://localhost:8000)
+
+---
+
+### Deployment to Render
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com)
+
+1. Create a Render account  
+2. Connect your GitHub repository  
+3. Configure settings:
+
+    - **Runtime:** Python 3  
+    - **Build Command:** `pip install -r requirements.txt`  
+    - **Start Command:** `uvicorn main:app --host 0.0.0.0 --port $PORT`  
+
+4. Add environment variable:
+
+    - `PORT` → `10000`  
+
+5. Click **"Create Web Service"**
+
+---
+
+## Project Structure 📂
+
+```
+MECN4020A-Exam-Practice/
+├── data/                   # Question data files
+│   └── enriched_questions.json
+├── static/                 # Frontend assets
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+├── .gitignore              # Git ignore rules
+├── main.py                 # FastAPI application
+├── Procfile                # Render configuration
+├── requirements.txt        # Python dependencies
+├── runtime.txt             # Python version
+└── README.md               # This documentation
+```
+
+---
+
+## Contributing 🤝
+
+Contributions are welcome! If you have additional questions or improvements:
+
+1. Fork the repository  
+2. Create your feature branch (`git checkout -b feature/new-questions`)  
+3. Commit your changes (`git commit -am 'Add new questions'`)  
+4. Push to the branch (`git push origin feature/new-questions`)  
+5. Open a pull request  
+
+---
+
+## Disclaimer ⚠️
+
+This application is intended for educational purposes only. The practice questions included are from various sources and are not owned by the repository maintainer. If you are the copyright holder 
+of any material in this repository and wish to have it removed, please contact me at [your-email@example.com] with proof of ownership, and the content will be removed promptly.
+
+---
+
+## License 📄
+
+This project is licensed under the **MIT License** – see the `LICENSE` file for details.
+
+---
+
+## Created with ❤️ for MECN4020 students  
+![GitHub Repo stars](https://img.shields.io/github/stars/your-username/MECN4020A-Exam-Practice?style=social)

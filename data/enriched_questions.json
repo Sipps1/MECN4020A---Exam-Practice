@@ -1,0 +1,69 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which of the following is the most appropriate initial management for a patient with acute decompensated heart failure?",
+      "options": {
+        "A": "IV furosemide and oxygen therapy",
+        "B": "Oral digoxin and bed rest",
+        "C": "Cardiac catheterization",
+        "D": "Intra-aortic balloon pump"
+      },
+      "answer": "A",
+      "explanation": "The initial management of acute decompensated heart failure focuses on symptom relief with diuresis (IV furosemide) and oxygen therapy to improve oxygenation. More invasive interventions are reserved for specific cases.",
+      "topic": "Cardiology"
+    },
+    {
+      "id": "q2",
+      "question": "A 65-year-old male presents with sudden-onset aphasia and right-sided weakness. CT head shows no hemorrhage. What is the most appropriate next step?",
+      "options": {
+        "A": "Immediate administration of tPA",
+        "B": "MRI brain with diffusion-weighted imaging",
+        "C": "Carotid Doppler ultrasound",
+        "D": "Initiate aspirin therapy"
+      },
+      "answer": "A",
+      "explanation": "For ischemic stroke presenting within 4.5 hours of symptom onset with no contraindications, IV tPA is the standard of care. Time is critical for neuronal salvage.",
+      "topic": "Neurology"
+    },
+    {
+      "id": "q3",
+      "question": "Which diagnostic test is most specific for rheumatoid arthritis?",
+      "options": {
+        "A": "Rheumatoid factor",
+        "B": "Anti-CCP antibodies",
+        "C": "ESR",
+        "D": "CRP"
+      },
+      "answer": "B",
+      "explanation": "Anti-cyclic citrullinated peptide (anti-CCP) antibodies have higher specificity (about 95%) for rheumatoid arthritis compared to rheumatoid factor (about 85%).",
+      "topic": "Rheumatology"
+    },
+    {
+      "id": "q4",
+      "question": "A 45-year-old woman presents with polyuria, polydipsia, and weight loss. Random glucose is 320 mg/dL. Which test confirms type 1 diabetes?",
+      "options": {
+        "A": "Fasting glucose >126 mg/dL",
+        "B": "HbA1c >6.5%",
+        "C": "Positive islet cell antibodies",
+        "D": "Oral glucose tolerance test"
+      },
+      "answer": "C",
+      "explanation": "Islet cell antibodies are specific markers for autoimmune destruction of pancreatic beta cells, confirming type 1 diabetes. Other options diagnose diabetes but don't differentiate between types.",
+      "topic": "Endocrinology"
+    },
+    {
+      "id": "q5",
+      "question": "Which antibiotic is contraindicated in a patient with myasthenia gravis?",
+      "options": {
+        "A": "Penicillin",
+        "B": "Cephalexin",
+        "C": "Azithromycin",
+        "D": "Ciprofloxacin"
+      },
+      "answer": "C",
+      "explanation": "Macrolide antibiotics like azithromycin can exacerbate myasthenia gravis by interfering with neuromuscular transmission. Fluoroquinolones and aminoglycosides are also contraindicated.",
+      "topic": "Neurology"
+    }
+  ]
+}
