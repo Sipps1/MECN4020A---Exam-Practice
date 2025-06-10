@@ -90,48 +90,6 @@ uvicorn main:app --reload
 
 **Access the app at:** [http://localhost:8000](http://localhost:8000)
 
----
-
-### Deployment to Render
-
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com)
-
-1. Create a Render account  
-2. Connect your GitHub repository  
-3. Configure settings:
-
-    - **Runtime:** Python 3  
-    - **Build Command:** `pip install -r requirements.txt`  
-    - **Start Command:** `uvicorn main:app --host 0.0.0.0 --port $PORT`  
-
-4. Add environment variable:
-
-    - `PORT` → `10000`  
-
-5. Click **"Create Web Service"**
-
----
-
-## Project Structure 📂
-
-```
-MECN4020A-Exam-Practice/
-├── data/                   # Question data files
-│   └── enriched_questions.json
-├── static/                 # Frontend assets
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-├── .gitignore              # Git ignore rules
-├── main.py                 # FastAPI application
-├── Procfile                # Render configuration
-├── requirements.txt        # Python dependencies
-├── runtime.txt             # Python version
-└── README.md               # This documentation
-```
-
----
-
 ## Contributing 🤝
 
 Contributions are welcome! If you have additional questions or improvements:
