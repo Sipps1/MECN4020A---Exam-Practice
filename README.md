@@ -105,7 +105,7 @@ Contributions are welcome! If you have additional questions or improvements:
 ## Disclaimer ⚠️
 
 This application is intended for educational purposes only. The practice questions included are from various sources and are not owned by the repository maintainer. If you are the copyright holder 
-of any material in this repository and wish to have it removed, please contact me at [your-email@example.com] with proof of ownership, and the content will be removed promptly.
+of any material in this repository and wish to have it removed, please contact me by opening an issue with proof of ownership, and the content will be removed promptly.
 
 ---
 
