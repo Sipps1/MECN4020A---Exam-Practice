@@ -20,16 +20,21 @@ document.addEventListener('DOMContentLoaded', () => {
     let questions = [], answers = {};
 
     async function load() {
-        try {
-            const res = await fetch('./data/enriched_questions.json');
-            const data = await res.json();
-            questions = data.questions;
-            countEl.textContent = questions.length;
-            render();
-        } catch (e) {
-            container.innerHTML = `<div class="alert alert-danger">Error: ${e.message}</div>`;
-        }
+      try {
+        const res = await fetch('../data/enriched_questions.json');
+        console.log("Fetch response:", res); // Check the response object
+        const data = await res.json();
+        console.log("JSON data:", data); // Check the parsed JSON data
+        questions = data.questions;
+        console.log("Questions array:", questions); // Check the questions array
+        countEl.textContent = questions.length;
+        render();
+      } catch (e) {
+        console.error("Error loading questions:", e); // Log the error
+        container.innerHTML = `<div class="alert alert-danger">Error: ${e.message}</div>`;
+      }
     }
+    
 
     function render() {
         container.innerHTML = '';
