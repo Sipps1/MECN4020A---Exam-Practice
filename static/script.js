@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   async function load() {
     try {
-      const res = await fetch('../enriched_questions.json');
+      const res = await fetch('../data/enriched_questions.json');
       const data = await res.json();
       questions = data.questions;
       countEl.textContent = questions.length;

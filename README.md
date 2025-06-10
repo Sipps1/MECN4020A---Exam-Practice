@@ -17,7 +17,7 @@ This web application provides a comprehensive set of practice questions for the 
 - Clean, responsive interface  
 - Easy deployment to cloud platforms  
 
-> **Note:** The practice questions in this repository are for educational purposes only. If you are the copyright holder of any material and wish to have it removed, please contact me immediately at [your-email@example.com].
+> **Note:** The practice questions in this repository are for educational purposes only. If you are the copyright holder of any material and wish to have it removed, please contact me immediately by creating an issue.
 
 ---
 
@@ -115,5 +115,4 @@ This project is licensed under the **MIT License** – see the `LICENSE` file fo
 
 ---
 
-## Created with ❤️ for MECN4020 students  
-![GitHub Repo stars](https://img.shields.io/github/stars/your-username/MECN4020A-Exam-Practice?style=social)
+## Created with ❤️ for MECN4020 students 
