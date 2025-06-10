@@ -1,6 +1,6 @@
 # MECN4020 Exam Practice App 📚
 
-![MECN4020 Exam Practice App](https://via.placeholder.com/800x400?text=MECN4020+Exam+Practice+App)
+![MECN4020 Exam Practice App](https://stendard.com/wp-content/uploads/2022/07/Integrated-Management-System-IMS.png)
 
 **Professional exam preparation tool for MECN4020 students**
 
