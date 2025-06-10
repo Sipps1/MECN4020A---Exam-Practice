@@ -1,47 +1,48 @@
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="light">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MECN4020 Practice</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MECN4020 Practice</title>
+    <!-- Corrected Bootstrap CSS Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
     <div class="container-fluid">
-      <a class="navbar-brand fw-bold" href="#">
-        <i class="fas fa-cogs me-2"></i>MECN4020 Practice
-      </a>
-      <div class="form-check form-switch text-white">
-        <input class="form-check-input" type="checkbox" id="theme-switch">
-        <label class="form-check-label" for="theme-switch">
-          <i class="fas fa-moon"></i>
-        </label>
-      </div>
+        <a class="navbar-brand fw-bold" href="#">
+            <i class="fas fa-cogs me-2"></i>MECN4020 Practice
+        </a>
+        <div class="form-check form-switch text-white">
+            <input class="form-check-input" type="checkbox" id="theme-switch">
+            <label class="form-check-label" for="theme-switch">
+                <i class="fas fa-moon"></i>
+            </label>
+        </div>
     </div>
-  </nav>
+</nav>
 
-  <main class="container my-5">
+<main class="container my-5">
     <header class="text-center mb-4">
-      <h1 class="fw-bold">MCQ Practice</h1>
-      <p class="text-muted">MECN4020 multiple-choice questions, one at a time.</p>
-      <span class="badge bg-dark">
-        <i class="fas fa-question-circle me-1"></i><span id="count">0</span> Questions
-      </span>
-      <div class="progress my-2" style="height:8px;">
-        <div class="progress-bar" role="progressbar" style="width:0%"></div>
-      </div>
-      <small>Completed: <span id="completed-count">0</span> | Correct: <span id="correct-count">0</span></small>
+        <h1 class="fw-bold">MCQ Practice</h1>
+        <p class="text-muted">MECN4020 multiple-choice questions, one at a time.</p>
+        <span class="badge bg-dark">
+            <i class="fas fa-question-circle me-1"></i><span id="count">0</span> Questions
+        </span>
+        <div class="progress my-2" style="height:8px;">
+            <div class="progress-bar" role="progressbar" style="width:0%"></div>
+        </div>
+        <small>Completed: <span id="completed-count">0</span> | Correct: <span id="correct-count">0</span></small>
     </header>
 
     <div id="questions-container" class="row g-4"></div>
-  </main>
+</main>
 
-  <footer class="text-center py-4 text-muted">&copy; 2025 MECN4020 Practice</footer>
+<footer class="text-center py-4 text-muted">&copy; 2025 MECN4020 Practice</footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
